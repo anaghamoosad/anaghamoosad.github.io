@@ -92,7 +92,7 @@ header li {
 
 header a {
 	display: block;
-	color: #3498db;
+	color: #212BBB;
 	padding: 10px
 }
 
@@ -104,7 +104,7 @@ header a:hover {
 }
 
 header a:focus {
-	color: #3498db;
+	color: #212BBB;
 	text-decoration: none
 }
 
@@ -127,7 +127,7 @@ header.sticky {
 	position: fixed;
 	right: 15px;
 	top: 10px;
-	color: #3498db;
+	color: #212BBB;
 	font-size: 1.5em;
 	z-index: 20;
 	padding: 0 7px;
@@ -144,7 +144,7 @@ header.sticky {
 	padding-right: 15px;
 	padding-top: 10px;
 	cursor: pointer;
-	color: #3498db
+	color: #212BBB
 }
 
 #mobile-menu-close span {
@@ -210,7 +210,7 @@ footer {
 }
 
 .social a:hover {
-	color: #3498db
+	color: #212BBB
 }
 
 .btn-rounded-white {
@@ -223,7 +223,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-	color: #3498db;
+	color: #212BBB;
 	background: #fff;
 	text-decoration: none
 }
@@ -253,7 +253,7 @@ footer {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	background: #3498db
+	background: #212BBB
 }
 
 .background-alt {
@@ -265,7 +265,7 @@ footer {
 	height: 100vh;
 	min-height: 500px;
 	max-height: 1080px;
-	background: url(../images/lead-bg.jpg);
+	background: url(../images/galaxy.jpg);
 	background-size: cover;
 	padding: 15px;
 	overflow: hidden
@@ -318,7 +318,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(33, 125, 187, 0.8);
+	background: rgba(33, 43, 187, 0.8);
 	z-index: 1
 }
 
@@ -373,7 +373,8 @@ footer {
 
 #about p {
 	color: #74808a;
-	margin: 0
+	margin: 0;
+    
 }
 
 #experience {
@@ -401,7 +402,7 @@ footer {
 	right: auto;
 	height: 100%;
 	width: 3px;
-	background: #3498db;
+	background: #212BBB;
 	z-index: 0
 }
 
@@ -410,8 +411,8 @@ footer {
 	content: '';
 	width: 3px;
 	height: 40px;
-	background: #3498db;
-	background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+	background: #212BBB;
+	background: linear-gradient(to bottom, #212BBB, rgba(52, 152, 219, 0));
 	top: 100%;
 	left: 303px
 }
@@ -465,7 +466,7 @@ footer {
 	color: #fff;
 	width: 50px;
 	height: 50px;
-	background: #3498db;
+	background: #212BBB;
 	border-radius: 50%;
 	float: left;
 	z-index: 99;
@@ -642,7 +643,7 @@ table {
 
 #contact {
 	padding: 50px 15px;
-	background: #3498db;
+	background: #212BBB;
 	text-align: center
 }
 
@@ -651,7 +652,23 @@ table {
 	color: #fff;
 	font-weight: 500
 }
+#contact h3 {
+	margin: 0 0 15px 0;
+	color: #fff;
+	font-weight: 500
+}
 
+#contact h3 a:link {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+  }
+ 
 #contact-form {
 	max-width: 500px;
 	margin: 0 auto
@@ -710,7 +727,7 @@ table {
 	border-radius: 4px;
 	padding: 5px 10px;
 	border: none;
-	color: #3498db;
+	color: #212BBB;
 	font-weight: 700;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	transition: .5s ease all
