@@ -1,2 +1,2 @@
 # anaghamoosad.github.io
-Website for Anagha Moosad
+My personal website
